@@ -484,8 +484,8 @@ def wvdenoise(signal, noise, wavelet='B3-Splines', k=3, thresholding='hard'):
 
 ####################################################################################################
 
-print(("Module ", __name__, " (version " + __ModuleVersion__ + ")"))
-print(((len(__name__) + 8) * "-"))
+print("Module ", __name__, " (version " + __ModuleVersion__ + ")")
+print((len(__name__) + 8) * "-")
 print('Barcelona Expert Centre in Remote Sensing')
 print('Institut de Ciencies del Mar (CSIC)')
-print((acknowledgments()))
+print(acknowledgments())
